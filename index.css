@@ -1,0 +1,298 @@
+* {
+    cursor: url('images/cursor-1.gif'), auto;
+}
+
+body {
+    margin: 0px;
+}
+
+::selection {
+    color: white;
+    background: #333;
+  }
+
+.main-content {
+    background: #ffffff;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 1200px; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center; 
+    padding: 10px 0; 
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    max-width: 970px; 
+    margin: 0 auto; 
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 130px; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.container-main {
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0;   
+}
+
+.content-main {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    max-width: 690px;
+    margin-left: 280px;
+    background-color: #ECECEC;
+    height:1050px
+}
+
+.container-side {
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0;
+    
+}
+
+.content-side {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    max-width: 255px; 
+    margin-top: -1070px;
+    margin-right: 710px;
+    background-color: #ECECEC;
+    height: 1050px;
+}
+
+#welcome {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    /*font-family: "Cute Font", system-ui;
+    font-weight: 400;
+    font-style: normal;*/
+}
+
+#greetings {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 580px;
+    height: 245px;
+    background-color: #F9F9F9;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 55spx;
+}
+
+#everskies1 {
+    margin-top: -200px;
+    margin-left: 510px;
+}
+
+.gif-1 {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.gif-2 {
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+.gif-3 {
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+.gif-4 {
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+
+#cat-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#contact {
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+#contact-1 {
+    font-family: "VT323", monospace;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#AAE {
+    font-family: "VT323";
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 24;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#ichiko {
+    font-family: "VT323";
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 24;
+    text-align: center;
+    margin-top: -15px;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: 10px;
+}
+
+#updates {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+
+#whatupdates {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 580px;
+    height: 100px;
+    background-color: #F9F9F9;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 55spx;
+    overflow: auto;
+}
+
+#to-do {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#lists {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 180px;
+    height: 125px;
+    background-color: #F9F9F9;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 55spx;
+    overflow: auto;
+}
+
+#journal {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#date {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-top: 65px;
+}
+
+#date {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#words {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 180px;
+    height: 125px;
+    background-color: #F9F9F9;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: -13px;
+    margin-left: 55spx;
+    overflow: auto;
+}

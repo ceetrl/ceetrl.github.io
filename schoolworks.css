@@ -1,0 +1,156 @@
+* {
+    cursor: url('images/cursor-1.gif'), auto;
+}
+
+body {
+    margin: 0px;
+}
+
+::selection {
+    color: white;
+    background: #333;
+  }
+
+.main-content {
+    background: #ffffff;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 1200px; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center; 
+    padding: 10px 0; 
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    max-width: 970px; 
+    margin: 0 auto; 
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 130px; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.container-main {
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0; 
+}
+
+.content-main {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    max-width: 968px;
+    margin-left: 0px;
+    background-color: #ECECEC;
+    height:1850px;
+}
+
+#sched {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    /*font-family: "Cute Font", system-ui;
+    font-weight: 400;
+    font-style: normal;*/
+}
+
+#section {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#schedule {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider-1 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.divider-1 img {
+    margin-right: -50px;
+}
+
+#homeworks {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.divider-2 {
+    display: flex;
+    margin-top: 400px;
+    margin-left: 40px;
+}
+
+.divider-2 img {
+    margin-right: -50px;
+}
+
+#readings {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.divider-3 {
+    display: flex;
+    margin-top: 400px;
+    margin-left: 40px;
+}
+
+.divider-3 img {
+    margin-right: -50px;
+}
