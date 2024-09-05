@@ -1,5 +1,5 @@
 * {
-    cursor: url('cursor-1.gif'), auto;
+    cursor: url('images/cursor-1.gif'), auto;
 }
 
 body {
@@ -65,12 +65,107 @@ body {
     margin-left: 200px;
 }
 
-#uc {
+.container-main {
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0; 
+}
+
+.content-main {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    max-width: 968px;
+    margin-left: 0px;
+    background-color: #ECECEC;
+    height:2000px;
+}
+
+#project {
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
     color: black;
-    font-size: 70px;
-    margin-top: -145px;
-    margin-left: 570px;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#ideas {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#fandom {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 360;
+    background-color: #F9F9F9;
+    border: 5px dotted #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 470px;
+}
+
+#fandom-pic {
+    margin-top: -465px;
+    margin-left: 30px;
+    border: 5px dotted #CCC;
+}
+
+.divider {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#recipe {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 360;
+    background-color: #F9F9F9;
+    border: 5px dotted #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 470px;
+}
+
+#recipe-pic {
+    margin-top: -600px;
+    margin-left: 30px;
+    border: 5px dotted #CCC;
+}
+
+#chat {
+    white-space: pre-wrap;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 360;
+    background-color: #F9F9F9;
+    border: 5px dotted #CCC;
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 470px;
+}
+
+#chat-pic {
+    margin-top: -410px;
+    margin-left: 30px;
+    border: 5px dotted #CCC;
 }
